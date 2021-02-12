@@ -1,4 +1,4 @@
-* linguist-vendored
+static/* linguist-vendored
 *.javaScript linguist-vendored=false
 
 *.java linguist-detectable=true
