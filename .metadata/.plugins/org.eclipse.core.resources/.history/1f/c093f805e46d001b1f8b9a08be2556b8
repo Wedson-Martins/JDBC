@@ -1,0 +1,9 @@
+package com.wcode.exem_jdbc;
+
+public class ConnectionFactory {
+
+	private static final STRING URL = "";
+	private static final STRING USER = "";
+	private static final STRING PASSWORD = "";
+
+}
