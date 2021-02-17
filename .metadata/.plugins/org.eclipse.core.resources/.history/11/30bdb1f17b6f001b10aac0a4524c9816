@@ -1,0 +1,24 @@
+package com.wcode.exemplo2_jdbc.conection;
+
+import java.sql.Connection;
+
+public class ConnectionFactory {
+
+	private final static String URL = "";
+	private final static String USER = "";
+	private final static String PASSWORD = "";
+
+	private static Connection connection = null;
+
+	private static Connection createConnection() {
+
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+
+		return connection;
+	}
+
+}

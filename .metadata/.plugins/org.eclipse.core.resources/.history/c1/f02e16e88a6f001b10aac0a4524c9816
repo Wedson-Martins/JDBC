@@ -1,0 +1,36 @@
+package com.wcode.exemplo2_jdbc.conection;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.Statement;
+import java.util.List;
+
+import com.wcode.exemplo2_jdbc.model.Car;
+
+public class DAO {
+
+	private Connection conn = null;
+	PreparedStatement preparedStatement = null;
+	Statement statement = null;
+
+	public void insert() {
+
+	}
+
+	public Car findById(int id) {
+		return null;
+	}
+
+	public List<Car> findAll() {
+		return null;
+	}
+
+	public void update() {
+
+	}
+
+	public void delete() {
+
+	}
+
+}

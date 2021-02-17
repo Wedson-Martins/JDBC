@@ -1,0 +1,20 @@
+package com.wcode.exemplo2_jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.wcode.exemplo2_jdbc.conection.ConnectionFactory;
+
+public class App {
+	public static void main(String[] args) throws SQLException {
+
+		Connection connection = ConnectionFactory.getConnection();
+
+		String sql = "DELETE from carros where id = ?";
+
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+	}
+}

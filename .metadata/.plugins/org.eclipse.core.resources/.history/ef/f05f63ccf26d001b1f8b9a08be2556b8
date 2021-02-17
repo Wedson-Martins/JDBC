@@ -1,0 +1,31 @@
+package com.wcode.use_jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import com.wcode.use_jdbc.connection.ConnectionFactory;
+import com.wcode.use_jdbc.model.Carro;
+
+public class App {
+	public static void main(String[] args) throws SQLException {
+		Connection connection = ConnectionFactory.getConnection();
+
+		// INSERT--------------------------------------------------------------------------------------
+		// Carro carro = new Carro("Ferrari");
+		// String sql = "INSERT INTO carros(model) value(?)";
+		// PreparedStatement preparedStatement =
+		// connection.prepareStatement(sql);
+		// preparedStatement.setString(1, carro.getModel());
+		// preparedStatement.executeUpdate();
+		// INSERT--------------------------------------------------------------------------------------
+
+		String sql = "select from carros";
+
+		Statement statement = connection.createStatement();
+		ResultSet resultSet = statement.executeQuery(sql);
+
+	}
+}

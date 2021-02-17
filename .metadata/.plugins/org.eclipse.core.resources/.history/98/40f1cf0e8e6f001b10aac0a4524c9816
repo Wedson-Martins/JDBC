@@ -1,0 +1,44 @@
+package com.wcode.exemplo2_jdbc.conection;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.List;
+
+import com.wcode.exemplo2_jdbc.model.Car;
+
+public class DAO {
+
+	private Connection conn = null;
+	private PreparedStatement preparedStatement = null;
+	private Statement statement = null;
+	private String sql = "";
+
+	public DAO() {
+		this.conn = ConnectionFactory.getConnection();
+	}
+
+	public void insert(Car car) throws SQLException {
+		sql = "inser into carros(modelo) values(?)";
+		this.preparedStatement = this.conn.prepareStatement(sql);
+		this.preparedStatement.setString(1, car.getModel());
+	}
+
+	public Car findById(int id) {
+		return null;
+	}
+
+	public List<Car> findAll() {
+		return null;
+	}
+
+	public void update() {
+
+	}
+
+	public void delete() {
+
+	}
+
+}

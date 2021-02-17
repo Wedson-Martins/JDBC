@@ -1,0 +1,36 @@
+package com.wcode.exemplo2_jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.wcode.exemplo2_jdbc.conection.ConnectionFactory;
+
+public class App {
+	public static void main(String[] args) throws SQLException {
+
+		Connection connection = ConnectionFactory.getConnection();
+
+		Scanner scanner = new Scanner(System.in);
+
+		String id = ";insert into carros (modelo) value(f);";
+
+		String sql = "select * from carros where id=" + id;
+
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+		// preparedStatement.setInt(1, 1);
+
+		ResultSet resultSet = preparedStatement.executeQuery(sql);
+
+		while (resultSet.next()) {
+			System.out.println(resultSet.getString(2));
+		}
+
+	}
+
+}

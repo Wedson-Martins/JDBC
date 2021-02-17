@@ -1,0 +1,73 @@
+package com.wcode.exemplo2_jdbc.conection;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.wcode.exemplo2_jdbc.model.Car;
+
+public class DAO {
+
+	private Connection conn = null;
+	private PreparedStatement preparedStatement = null;
+	private Statement statement = null;
+	private String sql = "";
+
+	public DAO() {
+		this.conn = ConnectionFactory.getConnection();
+	}
+
+	public void insert(Car car) throws SQLException {
+		sql = "insert into carros(modelo) values(?)";
+		this.preparedStatement = this.conn.prepareStatement(sql);
+		this.preparedStatement.setString(1, car.getModel());
+		this.preparedStatement.execute();
+	}
+
+	public Car findById(int id) throws SQLException {
+		sql = "select * from carros where id = ?";
+		this.preparedStatement = this.conn.prepareStatement(sql);
+		preparedStatement.setInt(1, id);
+		ResultSet resultSet = preparedStatement.executeQuery();
+
+		Car car = null;
+
+		while (resultSet.next()) {
+			car = new Car(resultSet.getInt(1), resultSet.getString(2));
+		}
+
+		return car;
+	}
+
+	public List<Car> findAll() throws SQLException {
+		this.sql = "select * from carros";
+		this.statement = this.conn.createStatement();
+		ResultSet resultSet = statement.executeQuery(sql);
+
+		Car car = null;
+		List<Car> cars = new ArrayList<Car>();
+
+		while (resultSet.next()) {
+			car = new Car(resultSet.getInt(1), resultSet.getString(2));
+			cars.add(car);
+		}
+
+		return cars;
+	}
+
+	public void update(Integer id, Car car) throws SQLException {
+		this.sql = "UPDATE carros SET modelo = ? where id = ? ";
+		this.preparedStatement = conn.prepareStatement(sql);
+		preparedStatement.setString(1, car.getModel());
+		preparedStatement.setInt(2, id);
+	}
+
+	public void delete() {
+
+	}
+
+}

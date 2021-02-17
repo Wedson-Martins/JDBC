@@ -1,0 +1,21 @@
+package com.wcode.exemplo2_jdbc;
+
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args) throws SQLException {
+
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("1 - Insere");
+		System.out.println("2 - Buscar pelo ID");
+		System.out.println("3 - Buscar todos");
+		System.out.println("4 - Atualizar");
+		System.out.println("5 - Deletar");
+		System.out.println("");
+		System.out.println("Escolha uma das Operações");
+		Integer choose = scanner.nextInt();
+
+	}
+}

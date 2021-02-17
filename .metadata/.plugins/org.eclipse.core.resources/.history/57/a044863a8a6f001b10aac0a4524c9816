@@ -1,0 +1,5 @@
+package com.wcode.exemplo2_jdbc.conection;
+
+public class DAO {
+
+}
