@@ -1,8 +1,0 @@
-package com.wcode.exemple_jdbc;
-
-public class ConnectionFactory {
-	
-	private final String USER = "";
-	private final String USER = "";
-	
-}

@@ -1,0 +1,13 @@
+package com.wcode.exemple_jdbc.connection;
+
+import java.sql.Connection;
+
+public class ConnectionFactory {
+
+	private final static String URL = "";
+	private final static String USER = "";
+	private final static String PASSWORD = "";
+
+	private static Connection conn = null;
+
+}

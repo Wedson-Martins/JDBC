@@ -1,7 +1,0 @@
-package com.wcode.exem_jdbc;
-
-public class App {
-	public static void main(String[] args) {
-		Class.forName("com.mysql.cj.jdbc.Driver");
-	}
-}

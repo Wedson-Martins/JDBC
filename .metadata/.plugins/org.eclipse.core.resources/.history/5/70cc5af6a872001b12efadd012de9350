@@ -1,0 +1,5 @@
+package com.wcode.exemple_jdbc.connection;
+
+public class ConnectionFactory {
+
+}
