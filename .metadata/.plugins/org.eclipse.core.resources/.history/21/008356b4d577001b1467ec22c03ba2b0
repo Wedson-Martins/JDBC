@@ -42,6 +42,7 @@ public class App {
 		// FindAll------------------------------------------------------
 
 		Scanner scanner = new Scanner(System.in);
+
 		System.out.println("Insert id: ");
 		Long id = scanner.nextLong();
 
@@ -49,7 +50,6 @@ public class App {
 		PreparedStatement stmt = connection.prepareStatement(sql);
 		stmt.setLong(1, id);
 		ResultSet rs = stmt.executeQuery();
-
 		Car car = new Car();
 
 		while (rs.next()) {
@@ -58,6 +58,5 @@ public class App {
 		}
 
 		System.out.println(car);
-
 	}
 }

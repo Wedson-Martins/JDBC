@@ -47,17 +47,7 @@ public class App {
 
 		String sql = "select * from cars where id = ?";
 		PreparedStatement stmt = connection.prepareStatement(sql);
-		stmt.setLong(1, id);
-		ResultSet rs = stmt.executeQuery();
-
-		Car car = new Car();
-
-		while (rs.next()) {
-			car.setId(rs.getLong(1));
-			car.setModel(rs.getString(2));
-		}
-
-		System.out.println(car);
+		stmt.setLong(1, 1L);
 
 	}
 }

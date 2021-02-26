@@ -2250,3 +2250,71 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-02-25 21:42:44,695 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
 2021-02-25 21:42:44,697 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-25 21:42:44,697 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 21:45:21,890 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:45:21,890 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 21:45:21,892 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:45:21,892 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 21:45:43,904 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:45:43,905 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 21:45:43,907 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:45:43,907 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 21:45:50,865 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:45:50,865 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 21:45:50,866 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:45:50,866 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 21:46:23,874 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:46:23,874 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 21:46:23,875 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:46:23,876 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 21:55:24,269 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:55:24,270 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 21:55:24,271 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 21:55:24,271 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:02:02,901 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:02:02,902 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:02:02,903 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:02:02,904 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:05:40,904 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:05:40,904 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:05:40,906 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:05:40,906 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:26:02,859 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:26:02,859 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:26:02,861 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:26:02,861 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:26:24,464 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:26:24,464 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:26:24,466 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:26:24,466 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:28:05,714 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:28:05,714 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:28:05,719 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:28:05,720 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:28:12,295 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:28:12,295 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:28:12,297 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:28:12,298 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:29:16,998 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:29:16,998 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:29:16,999 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:29:17,000 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:30:18,243 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:30:18,243 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:30:18,247 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:30:18,248 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:30:40,449 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:30:40,449 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:30:40,451 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:30:40,451 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:31:49,198 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:31:49,199 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:31:49,200 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:31:49,201 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:32:30,548 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:32:30,549 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:32:30,551 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:32:30,551 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources
+2021-02-25 22:33:24,509 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:33:24,509 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\main\resources
+2021-02-25 22:33:24,511 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-25 22:33:24,511 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Desenvolvimento\GIT\JDBC\exemple_jdbc\src\test\resources

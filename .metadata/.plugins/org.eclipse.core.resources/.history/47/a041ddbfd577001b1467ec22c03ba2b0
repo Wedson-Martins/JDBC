@@ -25,39 +25,21 @@ public class App {
 		// INSERT------------------------------------------------------
 
 		// FindAll------------------------------------------------------
-		// String sql = "Select * from cars";
-		//
-		// Statement stmt = connection.createStatement();
-		// ResultSet rs = stmt.executeQuery(sql);
-		//
-		// List<Car> cars = new ArrayList<Car>();
-		//
-		// while (rs.next()) {
-		// Car car = new Car();
-		// car.setId(rs.getLong(1));
-		// car.setModel(rs.getString(2));
-		// cars.add(car);
-		// }
-		// cars.forEach(c -> System.out.println(c));
-		// FindAll------------------------------------------------------
-
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Insert id: ");
-		Long id = scanner.nextLong();
-
-		String sql = "select * from cars where id = ?";
-		PreparedStatement stmt = connection.prepareStatement(sql);
-		stmt.setLong(1, id);
-		ResultSet rs = stmt.executeQuery();
-
-		Car car = new Car();
-
-		while (rs.next()) {
-			car.setId(rs.getLong(1));
-			car.setModel(rs.getString(2));
-		}
-
-		System.out.println(car);
+		 String sql = "Select * from cars";
+		
+		 Statement stmt = connection.createStatement();
+		 ResultSet rs = stmt.executeQuery(sql);
+		
+		 List<Car> cars = new ArrayList<Car>();
+		
+		 while (rs.next()) {
+		 Car car = new Car();
+		 car.setId(rs.getLong(1));
+		 car.setModel(rs.getString(2));
+		 cars.add(car);
+		 }
+		 cars.forEach(c -> System.out.println(c));
+		 FindAll------------------------------------------------------
 
 	}
 }
