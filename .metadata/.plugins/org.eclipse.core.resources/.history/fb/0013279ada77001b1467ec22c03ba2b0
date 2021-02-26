@@ -42,34 +42,22 @@ public class App {
 		// cars.forEach(c -> System.out.println(c));
 		// FindAll------------------------------------------------------
 
-		// FindById------------------------------------------------------
 		// System.out.println("Insert id: ");
-		// Long id = scanner.nextLong();
-		//
-		// String sql = "select * from cars where id = ?";
-		// PreparedStatement stmt = connection.prepareStatement(sql);
-		// stmt.setLong(1, id);
-		// ResultSet rs = stmt.executeQuery();
-		//
-		// Car car = new Car();
-		//
-		// while (rs.next()) {
-		// car.setId(rs.getLong(1));
-		// car.setModel(rs.getString(2));
-		// }
-		// System.out.println(car);
-		// FindById------------------------------------------------------
-
-		System.out.println("Insert Id: ");
 		Long id = scanner.nextLong();
-		System.out.println("Insert a new model: ");
-		String model = scanner.next();
 
-		String sql = "update cars set model = ? where id = ?";
+		String sql = "select * from cars where id = ?";
 		PreparedStatement stmt = connection.prepareStatement(sql);
-		stmt.setString(1, model);
-		stmt.setLong(2, id);
-		stmt.executeUpdate();
+		stmt.setLong(1, id);
+		ResultSet rs = stmt.executeQuery();
+
+		Car car = new Car();
+
+		while (rs.next()) {
+			car.setId(rs.getLong(1));
+			car.setModel(rs.getString(2));
+		}
+		 System.out.println(car);
+
 
 	}
 }

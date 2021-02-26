@@ -42,7 +42,6 @@ public class App {
 		// cars.forEach(c -> System.out.println(c));
 		// FindAll------------------------------------------------------
 
-		// FindById------------------------------------------------------
 		// System.out.println("Insert id: ");
 		// Long id = scanner.nextLong();
 		//
@@ -58,11 +57,10 @@ public class App {
 		// car.setModel(rs.getString(2));
 		// }
 		// System.out.println(car);
-		// FindById------------------------------------------------------
 
-		System.out.println("Insert Id: ");
+		System.out.println("Insert ID: ");
 		Long id = scanner.nextLong();
-		System.out.println("Insert a new model: ");
+		System.out.println("Insert a new Model: ");
 		String model = scanner.next();
 
 		String sql = "update cars set model = ? where id = ?";

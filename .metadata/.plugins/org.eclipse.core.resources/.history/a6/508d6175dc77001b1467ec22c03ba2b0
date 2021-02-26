@@ -69,7 +69,6 @@ public class App {
 		PreparedStatement stmt = connection.prepareStatement(sql);
 		stmt.setString(1, model);
 		stmt.setLong(2, id);
-		stmt.executeUpdate();
 
 	}
 }

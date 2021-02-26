@@ -67,9 +67,7 @@ public class App {
 
 		String sql = "update cars set model = ? where id = ?";
 		PreparedStatement stmt = connection.prepareStatement(sql);
-		stmt.setString(1, model);
-		stmt.setLong(2, id);
-		stmt.executeUpdate();
+		stmt.setString(1, "");
 
 	}
 }
