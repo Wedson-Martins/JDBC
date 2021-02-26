@@ -1,0 +1,53 @@
+package com.wcode.exemple_jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+import com.wcode.exemple_jdbc.connection.ConnectionFactory;
+
+public class App {
+	public static void main(String[] args) throws SQLException {
+
+		Connection connection = ConnectionFactory.getConnection();
+		// ---------------------------------------------------------------------------
+		// Scanner scanner = new Scanner(System.in);
+		// System.out.println("Digite um modelo: ");
+		// String model = scanner.next();
+		// ---------------------------------------------------------------------------
+
+		// INSERT
+		// ---------------------------------------------------------------------------
+		// String sql = "INSERT INTO carros(model) value(?)";
+		// PreparedStatement stmt = connection.prepareStatement(sql);
+		// stmt.setString(1, model);
+		// stmt.executeUpdate();
+		// ---------------------------------------------------------------------------
+
+		// FindAll
+		// ---------------------------------------------------------------------------
+		// String sql = "SELECT * FROM carros";
+		// Statement stmt = connection.createStatement();
+		// ResultSet rs = stmt.executeQuery(sql);
+		//
+		// while (rs.next()) {
+		// System.out.println(rs.getInt(1));
+		// System.out.println(rs.getString(2));
+		// }
+		// ---------------------------------------------------------------------------
+
+		// FindAll
+		String sql = "SELECT * FROM carros";
+		Statement stmt = connection.createStatement();
+		ResultSet rs = stmt.executeQuery(sql);
+
+		while (rs.next()) {
+			System.out.println(rs.getInt(1));
+			System.out.println(rs.getString(2));
+		}
+
+	}
+}

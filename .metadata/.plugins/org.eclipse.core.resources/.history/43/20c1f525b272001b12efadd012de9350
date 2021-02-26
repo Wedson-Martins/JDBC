@@ -1,0 +1,31 @@
+package com.wcode.exemple_jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+import com.wcode.exemple_jdbc.connection.ConnectionFactory;
+
+public class App {
+	public static void main(String[] args) throws SQLException {
+
+		Connection connection = ConnectionFactory.getConnection();
+
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Digite um modelo: ");
+
+		String model = scanner.next();
+
+		String sql = "INSERT INTO carros(model) value(?)";
+
+		PreparedStatement stmt = connection.prepareStatement(sql);
+
+		stmt.setString(1, model);
+
+		stmt.executeUpdate();
+
+	}
+}

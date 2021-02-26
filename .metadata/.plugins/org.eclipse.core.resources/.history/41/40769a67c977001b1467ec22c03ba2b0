@@ -1,0 +1,21 @@
+package com.wcode.exemple_jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.wcode.exemple_jdbc.connection.ConnectionFactory;
+
+public class App {
+	public static void main(String[] args) throws SQLException {
+
+		Connection connection = ConnectionFactory.getConnection();
+
+		String sql = "insert into carros(model) value(?)";
+
+		PreparedStatement stmt = connection.prepareStatement(sql);
+		stmt.setString(1, "Fusca");
+		stmt.executeUpdate();
+
+	}
+}

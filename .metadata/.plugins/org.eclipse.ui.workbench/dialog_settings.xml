@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="335" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
 			<item value="1"/>
 			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+			<item value="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
 			<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 			<item value="org.eclipse.m2e.core.wizards.Maven2ModuleWizard"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.wizards"/>
 			<item value="org.eclipse.ui.wizards"/>
+			<item value="org.eclipse.ui.wizards"/>
+			<item value="org.eclipse.ui.wizards"/>
 		</list>
 		<list key="textArray">
+			<item value="new cla"/>
+			<item value="new pack"/>
 			<item value="new mav"/>
 			<item value="new ma"/>
 		</list>
