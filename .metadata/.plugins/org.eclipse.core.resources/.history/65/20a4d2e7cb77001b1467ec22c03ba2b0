@@ -30,7 +30,7 @@ public class Car {
 
 	@Override
 	public String toString() {
-		return "Id: " + this.id + "\nModel: " + this.model + "\n-------------------------";
+		return "Id: " + this.id + "\nModel: " + this.model + "\n-----------------------------------";
 	}
 
 }

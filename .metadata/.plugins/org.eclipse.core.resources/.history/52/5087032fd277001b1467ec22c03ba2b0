@@ -28,9 +28,4 @@ public class Car {
 		this.model = model;
 	}
 
-	@Override
-	public String toString() {
-		return "Id: " + this.id + "\nModel: " + this.model + "\n-------------------------";
-	}
-
 }

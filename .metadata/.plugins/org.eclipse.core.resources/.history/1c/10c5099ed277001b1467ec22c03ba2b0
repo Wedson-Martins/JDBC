@@ -37,7 +37,9 @@ public class App {
 			cars.add(car);
 		}
 
-		cars.forEach(c -> System.out.println(c));
+		for (Car c : cars) {
+			System.out.println(c);
+		}
 
 	}
 }

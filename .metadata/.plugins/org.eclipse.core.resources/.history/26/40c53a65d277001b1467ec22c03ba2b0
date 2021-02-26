@@ -30,14 +30,5 @@ public class App {
 
 		List<Car> cars = new ArrayList<Car>();
 
-		while (rs.next()) {
-			Car car = new Car();
-			car.setId(rs.getLong(1));
-			car.setModel(rs.getString(2));
-			cars.add(car);
-		}
-
-		cars.forEach(c -> System.out.println(c));
-
 	}
 }

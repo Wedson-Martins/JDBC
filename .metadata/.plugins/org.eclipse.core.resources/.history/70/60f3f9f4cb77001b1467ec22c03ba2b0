@@ -17,18 +17,19 @@ public class App {
 		Connection connection = ConnectionFactory.getConnection();
 
 		// INSERT------------------------------------------------------
-		// String sql = "insert into cars(model) value(?)";
+		// String sql = "insert into carros(model) value(?)";
 		// PreparedStatement stmt = connection.prepareStatement(sql);
-		// stmt.setString(1, "Virtus");
+		// stmt.setString(1, "Fusca");
 		// stmt.executeUpdate();
 		// INSERT------------------------------------------------------
 
-		String sql = "Select * from cars";
-
+		// FindAll------------------------------------------------------
+		
+		String sql = "select * from carros";
 		Statement stmt = connection.createStatement();
 		ResultSet rs = stmt.executeQuery(sql);
 
-		List<Car> cars = new ArrayList<Car>();
+		List<Car> cars = new ArrayList<>();
 
 		while (rs.next()) {
 			Car car = new Car();
@@ -36,8 +37,7 @@ public class App {
 			car.setModel(rs.getString(2));
 			cars.add(car);
 		}
-
+		System.out.println("-----------------------------------");
 		cars.forEach(c -> System.out.println(c));
-
 	}
 }
