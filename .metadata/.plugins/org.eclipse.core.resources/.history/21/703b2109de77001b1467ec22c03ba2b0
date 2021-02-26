@@ -82,6 +82,7 @@ public class App {
 		PreparedStatement stmt = connection.prepareStatement(sql);
 		stmt.setLong(1, id);
 		stmt.executeUpdate();
+
 		// DELETE
 
 	}

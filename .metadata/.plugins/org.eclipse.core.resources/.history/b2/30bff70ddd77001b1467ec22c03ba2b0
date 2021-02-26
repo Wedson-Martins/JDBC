@@ -60,29 +60,16 @@ public class App {
 		// System.out.println(car);
 		// FindById------------------------------------------------------
 
-		// UPDATE
-		// System.out.println("Insert Id: ");
-		// Long id = scanner.nextLong();
-		// System.out.println("Insert a new model: ");
-		// String model = scanner.next();
-		//
-		// String sql = "update cars set model = ? where id = ?";
-		// PreparedStatement stmt = connection.prepareStatement(sql);
-		// stmt.setString(1, model);
-		// stmt.setLong(2, id);
-		// stmt.executeUpdate();
-		// UPDATE
-
-		// DELETE
-
-		System.out.println("Insert id: ");
+		System.out.println("Insert Id: ");
 		Long id = scanner.nextLong();
+		System.out.println("Insert a new model: ");
+		String model = scanner.next();
 
-		String sql = "delete from cars where id = ?";
+		String sql = "update cars set model = ? where id = ?";
 		PreparedStatement stmt = connection.prepareStatement(sql);
-		stmt.setLong(1, id);
+		stmt.setString(1, model);
+		stmt.setLong(2, id);
 		stmt.executeUpdate();
-		// DELETE
 
 	}
 }

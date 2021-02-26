@@ -74,14 +74,11 @@ public class App {
 		// UPDATE
 
 		// DELETE
-
-		System.out.println("Insert id: ");
-		Long id = scanner.nextLong();
-
-		String sql = "delete from cars where id = ?";
+		String sql = "Delete from cars where id = ?";
 		PreparedStatement stmt = connection.prepareStatement(sql);
-		stmt.setLong(1, id);
+		stmt.setLong(1, 3);
 		stmt.executeUpdate();
+
 		// DELETE
 
 	}

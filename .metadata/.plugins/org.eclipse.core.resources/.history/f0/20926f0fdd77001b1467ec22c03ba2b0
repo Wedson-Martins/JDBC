@@ -59,8 +59,7 @@ public class App {
 		// }
 		// System.out.println(car);
 		// FindById------------------------------------------------------
-
-		// UPDATE
+//UPDATE
 		// System.out.println("Insert Id: ");
 		// Long id = scanner.nextLong();
 		// System.out.println("Insert a new model: ");
@@ -71,18 +70,7 @@ public class App {
 		// stmt.setString(1, model);
 		// stmt.setLong(2, id);
 		// stmt.executeUpdate();
-		// UPDATE
-
-		// DELETE
-
-		System.out.println("Insert id: ");
-		Long id = scanner.nextLong();
-
-		String sql = "delete from cars where id = ?";
-		PreparedStatement stmt = connection.prepareStatement(sql);
-		stmt.setLong(1, id);
-		stmt.executeUpdate();
-		// DELETE
+//UPDATE
 
 	}
 }
